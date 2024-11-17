@@ -1,5 +1,6 @@
 import './App.css'
 import Counter from './components/Counter'
+import FormHandling from './components/FormHandling'
 import MaxCount from './components/MaxCount'
 import MyCustomWatch from './components/MyCustomWatch'
 import ProgressBar from './components/ProgressBar'
@@ -33,6 +34,9 @@ function App() {
         </div>
         <div className="bg-white border border-gray-200 rounded-lg shadow sm:p-6 md:p-8">
           <ProgressBar />
+        </div>
+        <div className=" row-span-2 bg-white border border-gray-200 rounded-lg shadow sm:p-6 md:p-8">
+          <FormHandling />
         </div>
         <div className="bg-white border border-gray-200 rounded-lg shadow sm:p-6 md:p-8">
           <MaxCount />
